@@ -14,7 +14,7 @@ import java.util.stream.Collectors;
 
 @RestController
 @RequestMapping(value = "/user")
-public class UserResource {
+public class UserResourceController {
 
     @Autowired
     private ModelMapper mapper;
